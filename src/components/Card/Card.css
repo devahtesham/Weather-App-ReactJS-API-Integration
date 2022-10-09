@@ -1,0 +1,92 @@
+.card__container {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+}
+input {
+  background-color: #7c7c7c2b !important;
+  color: #fff !important;
+  border: none !important;
+  outline: none !important;
+  border-radius: 20px !important;
+  max-width: 85% !important;
+}
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.card__container button {
+  background-color: #7c7c7c2b !important;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border-radius: 50% !important;
+  padding: 6px 11px;
+  font-size: 17px;
+}
+.bg video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -99;
+}
+.app__header {
+  transform: translateY(20%);
+}
+.card__container h1 {
+  font-size: 40px;
+  font-weight: 900;
+  text-shadow: 2px 2px 3px #0271c0;
+}
+.card__container h2 {
+  font-weight: 800;
+  font-size: 30px;
+  text-shadow: 2px 2px 3px #0271c0;
+}
+.card__container h4 {
+  font-weight: 600;
+  font-size: 18px;
+  text-shadow: 2px 2px 3px #0271c0;
+}
+.input-group {
+  justify-content: space-between;
+}
+img.icon {
+  width: 115px;
+}
+img.error {
+  width: 35%;
+}
+.error__container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ================= NIGHT MODE ====================== */
+.night__mode .card__container {
+  background-color: rgb(187 187 187 / 83%);
+  color: #fff;
+}
+.night__mode .card__container input {
+  background-color: #000000e6 !important;
+  color: #fff !important;
+  border: 2px solid #084298 !important;
+}
+.night__mode .card__container button {
+  background-color: #121212 !important;
+  color: #fff;
+}
+.night__mode .card__container h1 {
+  text-shadow: 2px 2px 3px #0271c0;
+  color: #000;
+}
+.night__mode .card__container h2,
+.night__mode .card__container h4 {
+  color: #000;
+}
+.night__mode .card__container button {
+  border: 2px solid #0271c0;
+}

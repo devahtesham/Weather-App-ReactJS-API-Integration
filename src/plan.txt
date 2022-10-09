@@ -1,0 +1,10 @@
+developer.accuweather.com 
+===========>  this is an api where we are fetching data
+Note:-
+    here i used two api, one for search city and city key, and the behalf of this key we will get the current condition of the city
+
+http://dataservice.accuweather.com/locations/v1/cities/search   
+===============> this api used for search city and their key 
+
+http://dataservice.accuweather.com/currentconditions/v1/{cityKey}
+=================> this is used for getting current conditions of the required city
